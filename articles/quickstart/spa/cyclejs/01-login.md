@@ -3,7 +3,10 @@ title: Login
 default: true
 description: This tutorial will show you how to use the Auth0 Cycle.js driver to add authentication and authorization to your web app.
 budicon: 448
+github:
+  path: 01-Login
 ---
+<<<<<<< HEAD
 
 <%= include('../../../_includes/_package', {
   org: 'auth0-community',
@@ -17,6 +20,8 @@ budicon: 448
   ]
 }) %>
 
+=======
+>>>>>>> Added metadata for SPA QS
 ${include('../\_callback')}
 
 ## 1. Install the `cyclejs-auth0` Package
