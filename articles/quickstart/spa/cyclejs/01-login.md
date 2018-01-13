@@ -6,22 +6,6 @@ budicon: 448
 github:
   path: 01-Login
 ---
-<<<<<<< HEAD
-
-<%= include('../../../_includes/_package', {
-  org: 'auth0-community',
-  repo: 'auth0-cycle-samples',
-  path: '04-User-Profile',
-  requirements: [
-    'NodeJS 6.3',
-    'npm 3.10.3',
-    '@cycle/xstream-run 3.0.3',
-    'cyclejs-auth0 3.0.0'
-  ]
-}) %>
-
-=======
->>>>>>> Added metadata for SPA QS
 ${include('../\_callback')}
 
 ## 1. Install the `cyclejs-auth0` Package
