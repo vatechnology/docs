@@ -18,6 +18,16 @@ versions:
       - 02-storing-tokens
       - 03-user-profile
       - 04-authorization
+    show_steps: false
+    github:
+      org: auth0-samples
+      repo: auth0-aspnetcore-mvc-samples
+      branch: v1
+    requirements:
+      - .NET Core 1.1.0
+      - ASP.NET Core 1.1.1
+      - Microsoft.AspNetCore.Authentication.OpenIdConnect 1.1.1
+      - Microsoft Visual Studio 2017 Update 3 or .NET core command line tools
   v2:
     title: v2.0
     articles:
@@ -26,3 +36,16 @@ versions:
       - 02-storing-tokens
       - 03-user-profile
       - 04-authorization
+    show_steps: false
+    github:
+      org: auth0-samples
+      repo: auth0-aspnetcore-mvc-samples
+      branch: master
+    requirements:
+      - .NET Core SDK 2.0
+      - .NET Core 2.0
+      - ASP.NET Core 2.0
+      - Microsoft Visual Studio 2017 Update 3 or .NET core command line tools
+
+
+

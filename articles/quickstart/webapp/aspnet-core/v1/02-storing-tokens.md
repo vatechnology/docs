@@ -2,21 +2,10 @@
 title: Storing Tokens
 description: This tutorial will show you how store the tokens returned from Auth0 in order to use them later on.
 budicon: 280
+github:
+  path: Quickstart/02-Storing-Tokens
 ---
-
-<%= include('../../../../_includes/_package', {
-  org: 'auth0-samples',
-  repo: 'auth0-aspnetcore-mvc-samples',
-  branch: 'v1',
-  path: 'Quickstart/02-Storing-Tokens',
-  requirements: [
-    '.NET Core 1.1.0',
-    'ASP.NET Core 1.1.1',
-    'Microsoft.AspNetCore.Authentication.OpenIdConnect 1.1.1'
-  ]
-}) %>
-
-The OIDC middleware in ASP.NET Core will automatically Decode the ID Token returned from Auth0 and will automatically add the claims contained in the ID Token as claims on the `ClaimsIdentity`.
+The OIDC middleware in ASP.NET Core will automatically decode the ID Token returned from Auth0 and will automatically add the claims contained in the ID Token as claims on the `ClaimsIdentity`.
 
 This means that inside any of the actions in your controllers you can simply use `User.Claims.FirstOrDefault("<claim type>").Value` to obtain the value of a particular claim.
 
