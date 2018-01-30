@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: echosign
 title: EchoSign
 logo_class: AdobeEchoSign

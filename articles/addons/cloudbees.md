@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: cloudbees
 title: CloudBees
 logo_class: CloudBees

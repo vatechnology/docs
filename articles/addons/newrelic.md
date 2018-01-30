@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: newrelic
 title: New Relic
 logo_class: NewRelic

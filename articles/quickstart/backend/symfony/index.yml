@@ -1,6 +1,6 @@
 title: Symfony API
 community: true
-thirdParty: false
+third_party: false
 alias:
   - symfony
 languages:

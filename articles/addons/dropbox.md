@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: dropbox
 title: Dropbox
 logo_class: Dropbox

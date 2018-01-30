@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: concur
 title: Concur (beta)
 logo_class: Concur

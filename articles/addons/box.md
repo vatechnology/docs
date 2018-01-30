@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: box
 title: Box
 logo_class: Box

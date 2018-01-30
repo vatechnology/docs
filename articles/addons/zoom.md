@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: zoom
 title: Zoom
 logo_class: Zoom

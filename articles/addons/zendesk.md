@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: zendesk
 title: Zendesk
 logo_class: Zendesk

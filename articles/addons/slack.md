@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: slack
 title: Slack
 logo_class: Slack

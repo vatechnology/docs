@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: mscrm
 title: Dynamics CRM
 logo_class: MicrosoftDynamicsCRM

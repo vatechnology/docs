@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: salesforce
 title: Salesforce
 logo_class: Salesforce

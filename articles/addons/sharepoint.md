@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: sharepoint
 title: SharePoint
 logo_class: Sharepoint

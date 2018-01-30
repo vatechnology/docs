@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: rms
 title: AD RMS
 logo_class: Windows Server Active Directory RMS

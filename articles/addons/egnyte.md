@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: egnyte
 title: Egnyte
 logo_class: Egnyte

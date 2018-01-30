@@ -3,7 +3,7 @@ alias:
   - php
 languages:
   - PHP
-thirdParty: false
+third_party: false
 image: /media/platforms/php.png
 tags:
   - quickstart

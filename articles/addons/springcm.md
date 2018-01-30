@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: springcm
 title: SpringCM
 logo_class: SpringCM

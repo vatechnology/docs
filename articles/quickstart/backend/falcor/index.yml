@@ -1,6 +1,6 @@
 title: Falcor API
 community: true
-thirdParty: false
+third_party: false
 alias:
   - falcor
 languages:

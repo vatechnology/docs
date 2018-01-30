@@ -1,5 +1,5 @@
 ---
-thirdParty: true
+third_party: true
 name: office365
 title: Office 365 (beta)
 logo_class: Office365

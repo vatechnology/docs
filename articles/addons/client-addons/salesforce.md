@@ -3,7 +3,7 @@ addon: Salesforce
 alias:
   - salesforce
 url: addons/salesforce  
-thirdParty: true
+third_party: true
 image: /media/addons/salesforce.svg
 description: This tutorial will show you how to use the Auth0 to authenticate and authorize your Salesforce services.
 ---
