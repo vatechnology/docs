@@ -22,3 +22,10 @@ snippets:
   SecurePingController: server-apis/java-spring-security/SecurePingController
 articles:
   - 01-authorization
+show_steps: false
+github:
+  org: auth0-samples
+  repo: auth0-spring-security-api-sample
+requirements:
+  - Java 8 or above
+  - Maven 3.0.x or above

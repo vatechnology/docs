@@ -1,20 +1,10 @@
 ---
 title: Authorization
-name: Shows how to secure your API using the standard OWIN JWT middeware
+name: Shows how to secure your API using the standard OWIN JWT middleware
 budicon: 500
+github:
+    path: Quickstart/01-Authorization
 ---
-
-<%= include('../../../_includes/_package', {
-  org: 'auth0-samples',
-  repo: 'auth0-aspnet-owin-webapi-samples',
-  path: 'Quickstart/01-Authorization',
-  requirements: [
-    'Microsoft Visual Studio 2015 Update 3',
-    'Microsoft.Owin.Security.Jwt NuGet Package V3.0.1',
-    'System.IdentityModel.Tokens.Jwt NuGet Package v4.0.2',
-    'Auth0.OpenIdConnectSigningKeyResolver NuGet Package v1.0.0'
-  ]
-}) %>
 
 <%= include('../../../_includes/_api_auth_intro') %>
 

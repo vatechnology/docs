@@ -20,9 +20,28 @@ versions:
       - 01-authorization
       - 02-using
       - 03-troubleshooting
+    show_steps: false
+    github:
+      org: auth0-samples
+      repo: auth0-aspnetcore-webapi-samples
+      branch: v1
+    requirements:
+      - .NET Core 1.1
+      - ASP.NET Core 1.1
+      - Microsoft.AspNetCore.Authentication.JwtBearer 1.1.1
+      - Visual Studio 2017 or Visual Studio Code (Optional)
   v2:
     title: v2.0
     articles:
       - 01-authorization
       - 02-using
       - 03-troubleshooting
+    show_steps: false
+    github:
+      org: auth0-samples
+      repo: auth0-aspnetcore-webapi-samples
+      branch: master
+    requirements:
+      - .NET Core 2.0
+      - ASP.NET Core 2.0
+      - Visual Studio 2017 or Visual Studio Code (Optional)
