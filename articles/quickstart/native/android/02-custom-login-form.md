@@ -3,21 +3,16 @@ title: Custom Login Form
 description: This tutorial will show you how to use the Auth0 authentication API in your Android project to create a custom login form.
 seo_alias: android
 budicon: 448
+github:
+    path: 02-Custom-Login-Form
+    branch: embedded-login
 ---
 
 This quickstart will show you how to add Auth0 login capabilities while using a customized login form.
 
-<%= include('../../../_includes/_package', {
-  org: 'auth0-samples',
-  repo: 'auth0-android-sample',
-  branch: 'embedded-login',
-  path: '02-Custom-Login-Form',
-  requirements: [
-    'Android Studio 2.3',
-    'Android SDK 25',
-    'Emulator - Nexus 5X - Android 6.0'
-  ]
-}) %>__
+::: warning
+Username/Email & Password authentication from native clients is disabled by default for new tenants as of 8 June 2017. Users are encouraged to use the [Hosted Login Page](/hosted-pages/login) and perform Web Authentication instead. If you still want to proceed you'll need to enable the Password Grant Type on your dashboard first. See [Client Grant Types](/clients/client-grant-types) for more information.
+:::
 
 ## Before Starting
 
