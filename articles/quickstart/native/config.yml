@@ -1,0 +1,19 @@
+next_steps:
+  - path: 01-login
+    list:
+    - text: Login for SPA applications
+      icon: 350
+      href: /login-spa-applications
+    - text: Testing for SPA applications
+      icon: 345
+      href: /testing-spa-applications
+  - path: 02-user-profile.md
+    list:
+    - text: Login for SPA applications
+      icon: 350
+      href: /login-spa-applications
+    - text: Testing for SPA applications
+      icon: 345
+      href: Test
+sample_download_required_data:
+  - client
