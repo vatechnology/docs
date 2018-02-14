@@ -1,5 +1,6 @@
 title: Hapi API
-community: true
+author:
+ community: true
 third_party: false
 alias:
   - hapi

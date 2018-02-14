@@ -1,5 +1,6 @@
 title: Ember
-community: true
+author:
+ community: true
 alias:
   - ember
   - emberjs
@@ -21,5 +22,3 @@ github:
   branch: master
 requirements:
   - Ember 2.x
-author:
-  community: true

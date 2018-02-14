@@ -1,5 +1,6 @@
 title: Cycle
-community: true
+author:
+ community: true
 alias:
   - cyclejs
 language:
@@ -29,6 +30,4 @@ github:
 requirements:
   - cycle/xstream-run 3.0.3
   - cyclejs-auth0 3.0.0
-author:
-  community: true
   

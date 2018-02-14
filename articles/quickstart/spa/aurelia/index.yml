@@ -1,5 +1,6 @@
 title: Aurelia
-community: true
+author:
+ community: true
 alias:
   - aurelia
   - aureliajs
@@ -25,6 +26,4 @@ github:
   branch: master
 requirements:
   - Aurelia 1.1
-author:
-  community: true
   
