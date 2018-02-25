@@ -62,8 +62,6 @@ versions:
       - text: Learn about rules
           icon: 345
           href: "/rules"
-sample_download_required_data:
-  - client
   v2:
     title: v2.0
     articles:
@@ -116,5 +114,3 @@ sample_download_required_data:
       - text: Learn about rules
           icon: 345
           href: "/rules"
-
-
