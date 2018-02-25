@@ -6,7 +6,11 @@ budicon: 448
 github:
     path: 00-Starter-Seed
 ---
-## Install the Plugin and its Dependencies
+<%= include('../_includes/_getting_started', { library: 'Laravel', callback: 'http://localhost:3000/callback' }) %>
+
+## Integrate Auth0 in your application
+
+### Install the Auth0 plugin and its dependencies
 
 ${snippet(meta.snippets.dependencies)}
 
@@ -14,7 +18,7 @@ ${snippet(meta.snippets.dependencies)}
 **[Composer](https://getcomposer.org/)** is a tool for dependency management in PHP. It allows you to declare the dependent libraries your project needs and it will install them in your project for you. See Composer's [getting started](https://getcomposer.org/doc/00-intro.md) doc for information on how to use it.
 :::
 
-## Enable it in Laravel
+### Enable it in Laravel
 
 Add the following to the list of service providers, located in `config/app.php`
 
@@ -49,7 +53,7 @@ public function register()
 }
 ```
 
-## Configure It
+### Configure It
 
 To configure the plugin, you need to publish the plugin configuration and complete the file `config/laravel-auth0.php` using the information of your Auth0 account.
 
@@ -59,7 +63,7 @@ To publish the example configuration file use this command
 php artisan vendor:publish
 ```
 
-## Setup the Callback Action
+### Setup the Callback Action
 
 The plugin works with the [Laravel authentication system](https://laravel.com/docs/5.3/authentication), but instead of using the `Auth::attempt` in a controller that handles a login form submit, you have to hook up the callback uri.
 
@@ -71,7 +75,7 @@ In other words, you need to select a uri (for example `/auth0/callback`) and con
 Route::get('/auth0/callback', '\Auth0\Login\Auth0Controller@callback');
 ```
 
-## Triggering Login Manually or Integrating the Auth0 Widget
+## Trigger Authentication
 
 You can trigger the login by calling `\App::make('auth0')->login();` in your controller, for example:
 
@@ -89,7 +93,7 @@ class IndexController extends Controller {
 
 Now, after user has logged in, you will be able to access to the logged user info with `Auth::user()`.
 
-## Defining a User and a User Provider
+## Integrate with Laravel authentication system
 
 The [Laravel authentication system](https://laravel.com/docs/5.5/authentication) needs a *User Object* given by a *User Provider*. With these two abstractions, the user entity can have any structure you like and can be stored anywhere. You configure the *User Provider* indirectly, by selecting a user provider in `app/config/auth.php`. The default provider is Eloquent, which persists the User model in a database using the ORM.
 
@@ -110,7 +114,7 @@ Configure the `driver` in `/config/auth.php` to use `auth0`.
 ],
 ```
 
-## Extend the `Auth0UserRepository` Class
+### Extend the `Auth0UserRepository` Class
 
 There may be situations where you need to customize the `Auth0UserRepository` class. For example, you may want to use the default `User` model and store the user profile in your database. If you need a more advanced custom solution such as this, you can extend the `Auth0UserRepository` class with your own custom class.
 
@@ -194,7 +198,7 @@ public function register()
 }
 ```
 
-## Use It
+### Use the Laravel authentication system
 
 Now all your web routes will be secured by auth0.
 

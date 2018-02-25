@@ -6,11 +6,11 @@ budicon: 448
 github:
     path: 01-Login
 ---
-You can get started by either downloading the complete sample or following the tutorial steps to integrate Auth0 with an existing application.
-
 <%= include('../_includes/_getting_started', { library: 'Python', callback: 'http://localhost:3000/callback' }) %>
 
-## Add the Dependencies
+## Configure the application to use Auth0 for Authentication
+
+### Add the Dependencies
 
 This example uses [Flask](http://flask.pocoo.org) and the [Flask OAuthlib](https://flask-oauthlib.readthedocs.io) OAuth client library.
 
@@ -26,7 +26,7 @@ flask-oauthlib
 six
 ```
 
-## Initialize Flask-OAuthlib
+### Initialize Flask-OAuthlib
 
 With `OAuth` you call the authorize endpoint of the Authentication API and redirect your users to the [login page](/hosted-pages/login). This way, you will be implementing the [authorization code grant flow](/api-auth/tutorials/authorization-code-grant), so you will obtain a `code`.
 Create a file named `server.py`, and instantiate a client with your client keys, scopes, and OAuth endpoints.
@@ -57,7 +57,7 @@ auth0 = oauth.remote_app(
 )
 ```
 
-## Add the Auth0 Callback Handler
+### Add the Callback Handler
 
 This handler exchanges the `code` that Auth0 sends to the callback URL for an `access_token` 
 and an `id_token`.
@@ -160,7 +160,7 @@ def requires_auth(f):
   return decorated
 ```
 
-## Showing the User Profile
+## Show the User Profile
 
 Add a `/dashboard` route to `server.py` that will render the user information stored in the Flask session. 
 
