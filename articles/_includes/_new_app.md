@@ -8,6 +8,6 @@
 
   You need the following information:
   * **Client ID** : ${account.clientId}
-  * **Domain** : ${account.domain}
+  * **Domain** : ${account.namespace}
 
   ![App Dashboard](/media/articles/dashboard/client_settings.png)
