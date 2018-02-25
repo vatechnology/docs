@@ -1,19 +1,20 @@
 next_steps:
   - path: 01-login
     list:
-    - text: Login for SPA applications
+    - text: Configure other identity providers
       icon: 350
-      href: /login-spa-applications
-    - text: Testing for SPA applications
+      href: "/identityproviders"
+    - text: Enable multifactor authentication
       icon: 345
-      href: /testing-spa-applications
-  - path: 02-user-profile.md
-    list:
-    - text: Login for SPA applications
+      href: "/multifactor-authentication"
+    - text: Learn about anomaly detection
+      icon: 345
+      href: "/anomaly-detection"
+    - text: Learn about the user profile structure
       icon: 350
-      href: /login-spa-applications
-    - text: Testing for SPA applications
+      href: "/user-profile/normalized/oidc"
+    - text: Learn about scopes
       icon: 345
-      href: Test
+      href: "/scopes"
 sample_download_required_data:
   - client
