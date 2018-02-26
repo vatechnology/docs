@@ -20,7 +20,7 @@ snippets:
   request: server-apis/php-laravel/request
 articles:
   - 01-authorization
-show_steps: false
+show_steps: true
 github:
   org: auth0-samples
   repo: auth0-laravel-api-sample
