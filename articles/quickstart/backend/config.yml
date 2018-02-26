@@ -2,7 +2,7 @@ next_steps:
   - path: 01-authorization
     list:
     - text: Learn about custom APIs
-      icon: 350
+      icon: 345
       href: "/api"
     - text: Learn about scopes
       icon: 345

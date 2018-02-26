@@ -2,7 +2,7 @@ next_steps:
   - path: 01-login
     list:
     - text: Configure other identity providers
-      icon: 350
+      icon: 345
       href: "/identityproviders"
     - text: Enable multifactor authentication
       icon: 345
@@ -11,7 +11,7 @@ next_steps:
       icon: 345
       href: "/anomaly-detection"
     - text: Learn about the user profile structure
-      icon: 350
+      icon: 345
       href: "/user-profile/normalized/oidc"
     - text: Learn about scopes
       icon: 345
